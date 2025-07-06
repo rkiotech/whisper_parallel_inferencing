@@ -150,7 +150,7 @@ result = whisper.decode(model, mel, options)
 print(result.text)
 ```
 
-# Batch transcriptions of Audio files 
+## Batch transcriptions of Audio files 
 
 Below is an implementation for transcribing multiple audio files in parallel.
 
